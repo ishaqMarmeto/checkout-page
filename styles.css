@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.thank-you-container {
+    background-color: #fff;
+    /* padding: 20px; */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 20px auto;
+}
+input[type="radio"]{
+    accent-color: #6ee49f;
+}
+
+#checkicon{
+    color: #c232c7;
+    
+    
+}
+
+#email-check{
+    
+    background-color: #dfdfdf;
+}
+
+#paym-method{
+    font-weight: bold;
+    color: black;
+}
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+h2 {
+    font-size: 20px;
+    color: #555;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    /* color: #777; */
+    line-height: 1.6;
+}
+
+.order-summary {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.order-items {
+    margin-top: 20px;
+}
+
+/* .order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+} */
+
+.order-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.order-item-details {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-total {
+    margin-top: 20px;
+}
+
+/* .order-total p,
+.order-total h3 {
+    text-align: right;
+} */
+
+button {
+    background-color: #32C770;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.final{
+    background-color: #deddd9;
+}
