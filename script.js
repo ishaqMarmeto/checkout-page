@@ -212,19 +212,6 @@ document.addEventListener("DOMContentLoaded", function () {
         thankYouSection.classList.remove("hidden");
     });
   
-  
-  
-  
-
-
-
-
-
-
-
-
-
-    // aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
     const customerName = `${orderData.customer.first_name} ${orderData.customer.last_name}`;
     document.getElementById("customer-name").textContent = customerName;
 
